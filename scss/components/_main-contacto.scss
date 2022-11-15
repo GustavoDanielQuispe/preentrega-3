@@ -1,0 +1,143 @@
+/* INDEX CONTACTO  */
+
+.contacto-main {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .formulario {
+        background-color: black;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin: 100px 0;
+
+        form {
+            width: 450px;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.404);
+            padding: 10px 20px;
+            border-radius: 7px;
+
+            h2 {
+                color: white;
+                text-align: center;
+                margin: 10px 0;
+
+
+            }
+            input {
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px;
+                font-size: 17px;
+
+
+            }
+            textarea {
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px;
+                font-size: 17px;
+
+                min-height: 100px;
+                max-height: 200px;
+                max-width: 100%;
+                min-width: 100%;
+
+            }
+
+            #boton {
+                background-color: orange;
+                padding: 20px;
+                color: white;
+                transition: all 0.3s;
+                border: none;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.02,1.02);
+                    color: rgb(224, 224, 224);
+                    background-color: rgb(187, 122, 1);
+                    border: none;
+                }
+            }
+
+            @media (max-width:480px) {
+                width: 100%;
+            }
+
+            @media (min-width:481px) and (max-width:1200px) {
+                width: 80%;
+            }
+        }
+
+        .contacto-info {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            color: white;
+
+            h4 {
+                margin: 30px auto;
+                font-size: 25px;
+
+            }
+            ul {
+                list-style: none;
+                margin-bottom: 30px;
+
+                li {
+                    margin-left: 80px;
+                    margin-bottom: 10px;
+
+                    .fa-solid fa-location-dot {
+
+                    }
+                    .fa-solid fa-phone {
+
+                    }
+                    .fa-solid fa-envelope {
+
+                    }
+                }
+            }
+            .descripcion {
+                margin-left: 80px;
+                margin-bottom: 10px;
+
+            }
+            .contacto-pie {
+                margin: 200px auto 0 auto;
+
+                text-align: center;
+
+
+            }
+
+            @media (max-width:480px) {
+                width: 100%;
+            }
+
+            @media (min-width:481px) and (max-width:1200px) {
+                width: 100%;
+            }
+        }
+
+        @media (max-width:480px) {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        @media (min-width:481px) and (max-width:1200px) {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+    }
+}

@@ -1,1 +1,250 @@
 @import "../base/variables";
+
+/* MAIN INDEX NOSOTROS */
+
+.container-main {
+
+    .container-us {
+        padding-top: 170px ;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+
+        .imagen {
+            max-width: 100%;
+            width: 350px;
+            height: 300px;
+
+            @media (max-width:360px) {
+                width: 200px;
+                height: 200px;
+            }
+
+        }
+        h2 {
+            max-width: 100%;
+            color: white;
+            padding: 0 50px;
+            font-size: 50px;
+
+            @media (max-width:360px) {
+                text-align: center;
+
+            }
+
+        }
+
+        .paragraph-us {
+
+            p {
+                max-width: 100%;
+                width: 100%;
+                font-size: 20px;
+                color: white;
+
+            }
+            .btn {
+                border-radius: 3px;
+                border: 1px solid rgb(0, 0, 0);
+                padding: 7px 5px;
+                display: inline-block;
+                font-size: 15px;
+                font-weight: 700;
+                color: black;
+                background-color: rgb(255, 166, 0);
+
+            }
+
+            @media (max-width:360px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+        }
+
+        @media (max-width:360px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+/* MAIN INDEX IMAGENES */
+
+    .container-img-principal-us {
+        
+
+        .img-principal-us {
+            background-color: rgba(255, 255, 255, 0.562);
+            width: 100%;
+            margin: 25px 0;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border: 4px solid rgb(82, 82, 82);
+
+            .imagen-us {
+                margin: 25px 25px;
+                width: 300px;
+                height: 250px;
+                border: 5px solid rgba(90, 89, 89, 0.788);
+                transition: all 1s;
+
+                &:hover {
+                    transform: scale(1.1,1.1);
+
+                }
+
+                @media (max-width:360px) {
+                    width: 200px;
+                    height: 200px;
+                    margin: 30px 0;
+                }
+
+            }
+
+            @media (max-width:360px) {
+                max-width: 80%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+        }
+
+        @media (max-width:360px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+/* MAIN INDEX PRODUCTOS */
+
+.container-product {
+    margin: 150px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .imagen {
+        max-width: 100%;
+        width: 350px;
+        height: 300px;
+
+    }
+    h2 {
+        max-width: 100%;
+        color: white;
+        padding: 0 50px;
+        font-size: 50px;
+
+    }
+    .paragraph-product {
+        max-width: 100%;
+        font-size: 20px;
+        color: white;
+        p {
+
+        }
+        .btn {
+            border-radius: 3px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 7px 5px;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 700;
+            color: black;
+            background-color: rgb(255, 166, 0);
+
+        }
+
+        @media (max-width:360px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width:360px) {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* MAIN INDEX SERVICES */
+
+.container-service {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 100px;
+    .imagen {
+        max-width: 100%;
+        width: 350px;
+        height: 300px;
+
+    }
+    h2 {
+        color: white;
+        padding: 0 50px;
+        font-size: 34px;
+
+        @media (max-width:360px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+    .paragraph-service {
+        p {
+            max-width: 100%;
+            width: 100%;
+            font-size: 20px;
+            color: white;
+
+        }
+        .btn {
+            border-radius: 3px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 7px 5px;
+            display: inline-block;
+            font-size: 15px;
+            font-weight: 700;
+            color: black;
+            background-color: rgb(255, 166, 0);
+
+        }
+
+        @media (max-width:360px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+    }
+
+    @media (max-width:360px) {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

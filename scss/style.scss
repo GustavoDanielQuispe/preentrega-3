@@ -1,3 +1,18 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    background-image: url(../images/mosaico.jpg);
+}
+
+
 @import "components/header";
 @import "components/footer";
 @import "components/main-index";
@@ -8,3 +23,4 @@
 @import "components/main-trabajos";
 @import "base/variables";
 @import "base/listas";
+
