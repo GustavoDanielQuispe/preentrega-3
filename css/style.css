@@ -878,7 +878,7 @@ body {
 @media (min-width: 481px) and (max-width: 1200px) {
   .galeria-main .galeria-container .galeria .foto .imagen {
     width: 100%;
-    height: 400px;
+    height: 100;
   }
 }
 .galeria-main .galeria-container .galeria .pie {
