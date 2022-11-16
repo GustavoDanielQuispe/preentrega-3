@@ -29,7 +29,7 @@ body {
   cursor: pointer;
 }
 @media (max-width: 360px) {
-  .header .container-logo {
+  .header .container-logo .logo {
     display: none;
   }
 }
@@ -101,6 +101,11 @@ body {
     transition: all 0.2s;
     font-size: large;
     font-weight: 600;
+  }
+}
+@media (max-width: 320px) {
+  .header .menu-container .menu li a {
+    padding: 0;
   }
 }
 @media (max-width: 360px) {
@@ -201,7 +206,7 @@ body {
 .footer-container .grupo-2 small {
   font-size: 15px;
 }
-/* Las variables guardan estilos para poder reutilizar en otras partes del proyecto */
+
 /* MAIN INDEX NOSOTROS */
 .container-main {
   /* MAIN INDEX IMAGENES */
@@ -1018,6 +1023,6 @@ body {
   }
 }
 
-/* Las variables guardan estilos para poder reutilizar en otras partes del proyecto */ /* LISTAS */
+/* LISTAS */
 
 /*# sourceMappingURL=style.css.map */

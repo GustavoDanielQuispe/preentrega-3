@@ -20,12 +20,14 @@
             }
         }
         .logo {
+
+            @media (max-width:360px) {
+                display: none;
+    
+            }
         }
 
-        @media (max-width:360px) {
-            display: none;
 
-        }
 
         @media (min-width:321px) and (max-width:1200px) {
             display: none;
@@ -58,6 +60,7 @@
             background-color: orange;
             li {
                 background-color: orange;
+                
                 a {
                     margin: 0 20px;
                     width: 100%;
@@ -90,6 +93,10 @@
                         transition: all 0.2s;
                         font-size: large;
                         font-weight: 600;
+                    }
+
+                    @media (max-width:320px) {
+                        padding: 0;
                     }
 
 
