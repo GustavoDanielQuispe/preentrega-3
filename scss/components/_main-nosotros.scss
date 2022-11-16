@@ -25,11 +25,28 @@
                 font-size: 50px;
                 margin-bottom: 20px;
 
+                @media (max-width:480px) {
+                    font-size: 50px;
+                    margin-bottom: 10px;
+                }
             }
             p {
                 font-weight: 550;
                 font-size: 19px;
 
+                @media (max-width:480px) {
+                    font-weight: 300;
+                    font-size: 16px;
+                }
+
+            }
+
+            @media (min-width:481px) and (max-width:1200px) {
+                margin: 0;
+            }
+
+            @media (max-width:480px) {
+                margin: 0;
             }
         }
         .nosotros-choose {
@@ -39,13 +56,34 @@
                 font-size: 50px;
                 margin-bottom: 20px;
 
+                @media (max-width:480px) {
+                    font-size: 36px;
+                    margin-bottom: 10px;
+                }
+
             }
             p {
                 font-size: 19px;
                 font-weight: 550;
 
+                @media (max-width:480px) {
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+
             }
 
         }
     }
+
+    @media (min-width:481px) and (max-width:1200px) {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    @media (max-width:480px) {
+        width: 100%;
+        margin: 80px auto;
+    }
+
 }
